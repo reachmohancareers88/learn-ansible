@@ -2,13 +2,13 @@
   hosts: localhost
   connection: local
   vars:
-    x: 100
+    x: 11
     fruits:
       - apple
       - banana
     fruits_with_prices:
-      - { name: apple, price: 100 }
-      - { name: banana, price: 200 }
+      - { name: apple, price: 11 }
+      - { name: banana, price: 21 }
       - name: orange
         price: 600
   tasks:
